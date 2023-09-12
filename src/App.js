@@ -1,9 +1,9 @@
 import './App.css';
-
+import villa from './villa.png';
 function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <img src={villa} alt="villa" />
     </div>
   );
 }
