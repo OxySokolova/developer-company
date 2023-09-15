@@ -1,3 +1,11 @@
-.btn {
-    background-color: #004225;
+.aboutHead {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 0px 50px;
+    background-color:#667e94;
+    
+}
+.aboutHeadText {
+    color: #fff;
 }
