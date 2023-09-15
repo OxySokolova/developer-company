@@ -53,11 +53,18 @@
 .slidesContainer {
     display: flex;
     justify-content: start;
-    margin: 50px 100px;
+    margin: 50px 100px 0px;
 }
 .btnContainer {
     margin-left: 200px;
 }
 .parContainer {
 margin-left: 50px;
+}
+.btn {
+    background-color: #667e94;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50px;
 }

@@ -46,8 +46,8 @@ function Slides() {
     </div>
 
     <div className="btnContainer">
-        <button onClick={previousBtn}>Previous</button>
-        <button onClick={nextBtn}>Next </button>
+        <button className="btn" onClick={previousBtn}>Previous</button>
+        <button className="btn" onClick={nextBtn}>Next </button>
     </div>
         
         </div>
