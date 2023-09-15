@@ -1,4 +1,3 @@
-import About from './About';
 import './App.css';
 import villa from './villa.png';
 function App() {
