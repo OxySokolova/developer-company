@@ -28,7 +28,7 @@ function Slides() {
         <div>
         <div className="slidesContainer">
     <div>
-        <img src={image} width='400px' height='500px'/>
+        <img src={image} width='400px' height='500px' alt="villa"/>
     </div>
     <div className="parContainer">
         <p>ONE OR TWO BEDROOMS</p>
