@@ -1,0 +1,63 @@
+.aboutHead {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 0px 100px;
+    background-color:#667e94;
+    
+}
+.aboutHeadText {
+    color: #fff;
+    margin: 0px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.blueWords {
+    color: #667e94;
+}
+.aboutHeadName {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.aboutHeadPar {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.aboutDescriptPar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 400px;
+    color: #667e94;
+    margin-bottom: 50px;
+}
+.lines {
+    border-left: 1px solid rgb(196, 194, 202);
+    height: 60px;
+    padding-right: 50px;
+    padding-left: 15px;
+    color: #667e94;
+    }
+.parallax {
+    background-image: url("https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.slidesContainer {
+    display: flex;
+    justify-content: start;
+    margin: 50px 100px;
+}
+.btnContainer {
+    margin-left: 200px;
+}
+.parContainer {
+margin-left: 50px;
+}
