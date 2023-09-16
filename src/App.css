@@ -54,21 +54,20 @@
     /* компонент Slides */
 .slidesContainer {
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     margin: 50px 100px 0px;
 }
-.btnContainerSlides {
-    margin-left: 200px;
-}
-.parContainerSlidesparContainerSlides {
+.parContainerSlides {    
 margin-left: 50px;
+align-self: center;
+width: 250px;
+}
+.investContainerSlides {
+    margin: 0px 150px;
 }
 .btnSlides {
-    background-color: #667e94;
     border: none;
-    color: #fff;
-    padding: 10px;
-    margin-left: 50px;
+    background-color: #fff;
 }
 /* компонент Рrocess */
 .btnProcess {
@@ -77,6 +76,7 @@ margin-left: 50px;
     border-color: #667e94;
     font-weight: bolder;
 }
+/* App.js */
 #myVideo{
     width:100%;
 }
