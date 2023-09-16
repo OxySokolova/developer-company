@@ -1,3 +1,4 @@
+/* компонент About */
 .aboutHead {
     display: flex;
     justify-content: space-around;
@@ -50,14 +51,35 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
+    /* компонент Slides */
 .slidesContainer {
     display: flex;
     justify-content: start;
-    margin: 50px 100px;
+    margin: 50px 100px 0px;
 }
-.btnContainer {
+.btnContainerSlides {
     margin-left: 200px;
 }
-.parContainer {
+.parContainerSlidesparContainerSlides {
 margin-left: 50px;
+}
+.btnSlides {
+    background-color: #667e94;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin-left: 50px;
+}
+/* компонент Рrocess */
+.btnProcess {
+    padding: 20px;
+    border-radius: 30px;
+    border-color: #667e94;
+    font-weight: bolder;
+}
+#myVideo{
+    width:100%;
+}
+body{
+    margin:0;
 }

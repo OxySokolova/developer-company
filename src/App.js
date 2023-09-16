@@ -1,12 +1,13 @@
 import About from './About';
 import './App.css';
-import villa from './villa.png';
+import Process from './Process';
+import Video from './Video';
 function App() {
   return (
     <div>
+      <Video />
       <About/>
-      <img src={villa} alt="villa" width="70px" />
-      
+      <Process/>
     </div>
   );
 }
