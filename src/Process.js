@@ -1,7 +1,8 @@
 function Process() {
     return(
         <div>
-            Test
+            <h1>STAGES OF WORK</h1>
+            <button className="btnProcess">DISCASS THE PROJECT</button>
         </div>
     )
 }
