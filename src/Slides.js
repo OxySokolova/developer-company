@@ -30,7 +30,7 @@ function Slides() {
     <div>
         <img src={image} width='400px' height='500px' alt="villa"/>
     </div>
-    <div className="parContainer">
+    <div className="parContainerSlides">
         <p>ONE OR TWO BEDROOMS</p>
         <hr/>
         <p>65 М² LAND</p>
@@ -45,9 +45,9 @@ function Slides() {
     </div>
     </div>
 
-    <div className="btnContainer">
-        <button className="btn" onClick={previousBtn}>Previous</button>
-        <button className="btn" onClick={nextBtn}>Next </button>
+    <div className="btnContainerSlides">
+        <button className="btnSlides" onClick={previousBtn}>Previous</button>
+        <button className="btnSlides" onClick={nextBtn}>Next </button>
     </div>
         
         </div>
