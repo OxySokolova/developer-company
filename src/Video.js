@@ -6,10 +6,12 @@ class Video extends Component{
 
     render(){
     return(
-        <div>
-        <video autoPlay muted loop id="myVideo" playsinline>
-            <source src={video} type="video/mp4"/>
-        </video>
+        <div className="video">
+            <p className="above">WE WILL BUILD YOUR DREAM VILLA</p>
+            <video autoPlay muted loop id="myVideo" playsinline>
+                <source src={video} type="video/mp4"/>
+            </video>
+            
         </div>
     )
     }

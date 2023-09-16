@@ -83,3 +83,13 @@ margin-left: 50px;
 body{
     margin:0;
 }
+.above{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
