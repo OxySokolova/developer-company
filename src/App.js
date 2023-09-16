@@ -5,9 +5,6 @@ function App() {
   return (
     <div>
       <About/>
-      <p>September 13</p>
-      <img src={villa} alt="villa"/>
-
     </div>
   );
 }
