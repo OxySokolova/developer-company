@@ -1,12 +1,11 @@
-/* компонент About */
+/* About.js */
 .aboutHead {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 300px;
     padding: 0px 100px;
-    background-color:#667e94;
-    
+    background-color:#667e94; 
 }
 .aboutHeadText {
     color: #fff;
@@ -51,11 +50,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     }
-    /* компонент Slides */
+.aboutLocation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 0px 300px;
+    background-color:#667e94;
+    font-weight: bolder;
+}
+.aboutBlockPhotoRooms {
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+}
+.aboutImageRoom {
+    padding: 5px;
+    border-radius: 40px;
+}
+    /* Slides.js */
 .slidesContainer {
     display: flex;
     justify-content: space-around;
-    margin: 50px 100px 0px;
+    margin: 50px 100px 50px;
 }
 .parContainerSlides {    
 margin-left: 50px;
@@ -69,8 +86,7 @@ width: 250px;
     border: none;
     background-color: #fff;
 }
-
-/* App.js */
+/* Price.js */
 
 /* Video/js*/
 #myVideo{
