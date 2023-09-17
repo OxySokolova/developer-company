@@ -27,6 +27,29 @@ function About() {
     <div className="parallax"></div>
 
     <Slides/>
+
+    <div className="aboutLocation">
+        <img src="https://static.tildacdn.com/tild6230-3661-4237-b061-353230653739/exercise_.png" alt="emblemPerson" width="50px"/>
+        <p className="aboutHeadText">EASY ACCESS TO THE MOST POPULAR AND VISITED FITNESS/CROSSFIT CLUBS IN BALI</p>
+        <img src="https://static.tildacdn.com/tild6531-3361-4432-b038-633538363466/island-with-palm-tre.png" alt="emblemPalm" width="50px"/>
+        <p className="aboutHeadText">A 14-MINUTE DRIVE FROM BERAWA BEACH AND FINNS BEACH CLUB</p>
+        <img src="https://static.tildacdn.com/tild3134-6332-4838-a365-363434346232/flash_.png" alt="emblemLightning" width="50px"/>
+        <p className="aboutHeadText">A FEW MINUTES TO THE HOTTEST SPOTS OF CHANGU</p>
+    </div>
+
+    <div className="aboutBlockPhotoRooms">
+        <div className="aboutPhotoRooms-oneBlock">
+    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1609081144289-eacc3108cd03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1561049933-c7762dbc757e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+        </div>
+        
+    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1613082442324-62ef5249275e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" width=""/>
+        
+        <div className="aboutPhotoRooms-twoBlock">
+    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1609347744403-2306e8a9ae27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1561049933-c8fbef47b329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+        </div>
+    </div>
         </div>
     )
 }
