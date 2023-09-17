@@ -84,13 +84,22 @@ body{
     margin:0;
 }
 .above{
-    position: absolute;
-    font-size: 50px;
     color: white;
     font-family: 'Oswald', sans-serif;
+
 }
 .video{
+    position: absolute;
+}
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.first{
+    font-size: 30px;
+}
+.second{
+    font-size: 50px;
 }
