@@ -69,13 +69,7 @@ width: 250px;
     border: none;
     background-color: #fff;
 }
-/* компонент Рrocess */
-.btnProcess {
-    padding: 20px;
-    border-radius: 30px;
-    border-color: #667e94;
-    font-weight: bolder;
-}
+
 /* App.js */
 #myVideo{
     width:100%;
