@@ -68,6 +68,26 @@
     padding: 5px;
     border-radius: 40px;
 }
+.aboutFiveBoxes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.aboutBox {
+width: 150px;
+height: 170px;
+padding: 0px 30px;
+font-weight: bolder;
+font-size: 20px;
+font-family: 'Source Sans 3', sans-serif;
+background-color: #f6f7f9;
+text-align: center;
+}
+.darkBox {
+background-color: #0c3f55;
+color: #fff;
+}
     /* Slides.js */
 .slidesContainer {
     display: flex;

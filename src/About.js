@@ -50,7 +50,29 @@ function About() {
     <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1561049933-c8fbef47b329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
         </div>
     </div>
+   
+    <div className="aboutFiveBoxes">
+    <div className="aboutBox">
+        <p><span className="blueWords">CONSTRUCTION </span> 
+        has already started</p>
+    </div>
+    <div className="aboutBox">
+        <p><span className="blueWords">INSTALLMENTS </span>
+        by stages of construction</p>
+    </div>
+    <div className="aboutBox">
+        <p><span className="blueWords">APRIL - MAY 24 </span>
+        delivery of the complex</p>
+    </div>
+    <div className="aboutBox">
+        <p><span className="blueWords">LEASEHOLD </span> 
+        30 years with extansion</p>
         </div>
+    <div className="aboutBox darkBox">
+        <p>GET THE PROFITABILITY CALCULATION</p>
+    </div>
+    </div>
+    </div>
     )
 }
 
