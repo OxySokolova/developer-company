@@ -62,7 +62,7 @@
 .aboutBlockPhotoRooms {
     display: flex;
     justify-content: center;
-    margin: 100px 200px;
+    margin: 70px 200px;
 }
 .aboutImageRoom {
     padding: 5px;
@@ -107,6 +107,31 @@ width: 250px;
     background-color: #fff;
 }
 /* Price.js */
+.priceBox {
+    background-color: #607990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.priceItem {
+    width: 120px;
+    margin: 20px;
+    text-align: center;
+}
+.priceNumber {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.priceText {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+    
+}
 
 /* Video/js*/
 #myVideo{
