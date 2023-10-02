@@ -1,5 +1,13 @@
+import { useState } from "react";
+import generalPlan from './generalPlan.png';
+import twoBedroom from './twoBedroom.png';
+import oneBedroom from './oneBedroom.png';
+
+
 function Price() {
+    const [general, setGeneral] = useState(generalPlan);
     return(
+        <div>
         <div className="priceBox">
     <div className="priceItem">
         <h2 className="priceNumber">149 000$</h2>
@@ -12,6 +20,18 @@ function Price() {
         <h2 className="priceNumber">169 000$</h2>
         <p className="priceText">with rice fields view</p>
     </div>
+        </div>
+
+        <div className="priceButton">
+        <button className="priceBtn" onClick={() => {setGeneral(generalPlan)}}>GENERAL PLAN</button>
+        <button className="priceBtn" onClick={() => {setGeneral(twoBedroom)}}>TWO BEDROOM</button>
+        <button className="priceBtn" onClick={() => {setGeneral(oneBedroom)}}>ONE BEDROOM</button>
+        </div>
+
+        <div className="priceImage"> 
+        <img src={general} alt="photoPlan"/>
+        </div>
+
         </div>
     )
 }
