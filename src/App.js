@@ -3,6 +3,7 @@ import './App.css';
 import Video from './Video';
 import Menu from './Menu';
 import Price from './Price';
+import Feedback from './Feedback';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Video />
       <About/>
       <Price/>
+      <Feedback />
     </div>
   );
 }

@@ -149,4 +149,40 @@ body{
     padding: 20px;
     font-size: 20px;
 }
+.serf{
+    background-image: url("serf.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+    height: 250px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 60px;
+}
+.feedbackName{
+    color:white;
+    font-size: 40px;
+}
+.feedbackText{
+    color:white;
+    font-size: 20px;
+    width: 300px;
+}
+.sbm{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px;
+}
 
+.feedbackAll{
+    margin-right: 100px;
+}
+.thanks{
+    color: white;
+    margin-top: 120px;
+}
