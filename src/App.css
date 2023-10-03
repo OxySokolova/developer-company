@@ -62,7 +62,7 @@
 .aboutBlockPhotoRooms {
     display: flex;
     justify-content: center;
-    margin: 100px 200px;
+    margin: 70px 200px;
 }
 .aboutImageRoom {
     padding: 5px;
@@ -75,9 +75,11 @@
     margin-right: 150px;
 }
 .aboutBox {
+display: flex;
+align-items: center;
 width: 150px;
 height: 170px;
-padding: 0px 30px;
+padding: 0px 20px;
 font-weight: bolder;
 font-size: 20px;
 font-family: 'Source Sans 3', sans-serif;
@@ -107,6 +109,51 @@ width: 250px;
     background-color: #fff;
 }
 /* Price.js */
+.priceBox {
+    background-color: #607990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.priceItem {
+    width: 120px;
+    margin: 20px;
+    text-align: center;
+}
+.priceNumber {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.priceText {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+}
+.priceButton {
+    display: flex;
+    justify-content: center;
+}
+.priceBtn {
+    background-color: #9eafbf;
+    border: none;
+    border-radius: 50px;
+    padding: 20px 90px;
+    margin: 50px 30px 30px;
+    color: #fff;
+    font-weight: bolder;
+}
+.priceBtn:hover {
+    background-color: #607990;
+} 
+
+.priceImage {
+    display: flex;
+    justify-content: center;
+}
 
 /* Video/js*/
 #myVideo{
