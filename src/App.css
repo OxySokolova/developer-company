@@ -17,6 +17,9 @@
 .blueWords {
     color: #667e94;
 }
+.lightBlueWords {
+    color: #c1cbd4;
+}
 .aboutHeadName {
     text-align: center;
     font-size: 40px;
@@ -233,4 +236,45 @@ body{
 .thanks{
     color: white;
     margin-top: 120px;
+}
+/* Information.js */
+.parallaxTwo {
+    background-image: url("https://images.unsplash.com/photo-1581974206939-b42731ea9dc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    }
+.infoContainer {
+    display: flex;
+    justify-content: center;
+}
+.infoBoxLeft {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.infoBoxRight {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.infoHead {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+.infoPar {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+li {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
