@@ -4,6 +4,7 @@ import Video from './Video';
 import Menu from './Menu';
 import Price from './Price';
 import Feedback from './Feedback';
+import Information from './Information';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Price/>
       <Feedback />
+      <Information/>
     </div>
   );
 }
