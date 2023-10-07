@@ -6,6 +6,7 @@ import oneBedroom from './oneBedroom.png';
 
 function Price() {
     const [general, setGeneral] = useState(generalPlan);
+    
     return(
         <div>
         <div className="priceBox">
@@ -14,7 +15,7 @@ function Price() {
         <p className="priceText">without rice fields view</p>
     </div>
     <div className="priceItem">
-        <img src="https://static.tildacdn.com/tild3130-3131-4232-b762-346664303064/free-icon-dollar-sym.png" width="80px"/>
+        <img src="https://static.tildacdn.com/tild3130-3131-4232-b762-346664303064/free-icon-dollar-sym.png" width="80px" alt="icon"/>
     </div>
     <div className="priceItem">
         <h2 className="priceNumber">169 000$</h2>
