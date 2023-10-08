@@ -39,15 +39,15 @@ function About() {
 
     <div className="aboutBlockPhotoRooms">
         <div className="aboutPhotoRooms-oneBlock">
-    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1609081144289-eacc3108cd03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
-    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1561049933-c7762dbc757e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/modern-styled-small-entryway_23-2150712951.jpg?size=626&ext=jpg&ga=GA1.2.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://img.freepik.com/premium-photo/architectural-rendering-bathroom-spa-salon_202873-2945.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
         </div>
         
-    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1613082442324-62ef5249275e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" width=""/>
+    <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/bedroom-with-balcony-plants-wall_1340-34194.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width=""/>
         
         <div className="aboutPhotoRooms-twoBlock">
-    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1609347744403-2306e8a9ae27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
-    <img className="aboutImageRoom" src="https://images.unsplash.com/photo-1561049933-c8fbef47b329?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9vbXMlMjBiYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
+    <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/modern-styled-entryway_23-2150695895.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
         </div>
     </div>
    
