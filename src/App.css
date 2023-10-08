@@ -272,6 +272,7 @@ body{
 .infoPar {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 20px;
+    font-weight: bolder;
 }
 li {
     font-family: 'Source Sans 3', sans-serif;
