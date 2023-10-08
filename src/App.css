@@ -278,3 +278,12 @@ li {
     font-size: 20px;
     margin-bottom: 10px;
 }
+.endBackgroung{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #16293b;
+}
+.signature{
+    color:white;
+}

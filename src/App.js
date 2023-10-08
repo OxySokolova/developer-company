@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Price from './Price';
 import Feedback from './Feedback';
 import Information from './Information';
+import End from './End'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Price/>
       <Feedback />
       <Information/>
+      <End />
     </div>
   );
 }
