@@ -44,6 +44,7 @@
     padding-right: 50px;
     padding-left: 15px;
     color: #667e94;
+    font-family: 'Source Sans 3', sans-serif;
     }
 .parallax {
     background-image: url("https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
@@ -111,6 +112,14 @@ width: 250px;
     border: none;
     background-color: #fff;
 }
+.parText {
+    font-family: 'Source Sans 3', sans-serif;
+    
+    font-size: 18px;
+}
+.parTextHead {
+    font-family: 'Oswald', sans-serif;
+}
 /* Price.js */
 .priceBox {
     background-color: #607990;
@@ -148,6 +157,8 @@ width: 250px;
     margin: 50px 30px 30px;
     color: #fff;
     font-weight: bolder;
+    font-family: 'Source Sans 3', sans-serif;
+    letter-spacing: 1px;
 }
 .priceBtn:hover {
     background-color: #607990;
@@ -195,7 +206,7 @@ body{
 .item{
     text-decoration: none;
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     padding: 20px;
     font-size: 20px;
 }

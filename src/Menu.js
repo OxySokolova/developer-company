@@ -7,7 +7,7 @@ function Menu(){
             
             <a className="item" href="#">ABOUT US</a>
             <a className="item" href="#">PROJECTS</a>
-            <img src={logo} alt="logo" width="60px"/>
+            <img src={logo} alt="logo" width="70px"/>
             <a className="item" href="#">PROCESS</a>
             <a className="item" href="#">CONSULTATION</a>
         </nav>
