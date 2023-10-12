@@ -1,5 +1,5 @@
 import './App.css' 
-import logo from './villa-modified.png'
+import logo from './villa-modified.png';
 
 function Menu(){
     return(   
