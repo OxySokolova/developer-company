@@ -7,11 +7,13 @@ import Feedback from './Feedback';
 import Information from './Information';
 import End from './End';
 import logo from './villa-modified.png';
+import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 
 function App() {
   return (
+    <Router>
     <div>
       <nav className="nav">
         <HashLink  to="/#about" className='item'>ABOUT US</HashLink>
@@ -34,6 +36,7 @@ function App() {
       <End />
     </div>
     </div>
+    </Router>
   );
 }
 
