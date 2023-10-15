@@ -8,7 +8,7 @@ class Video extends Component{
     return(
         <div className="box">
             <div className="video">
-            <p className="above first">DEVELOPMENT COMPANY IN BALI</p>
+            <p className="above first">DEVELOPMENT COMPANY IN PHUKET</p>
             <p className="above second"> WE WILL BUILD YOUR DREAM VILLA</p>
             </div>
             <video autoPlay muted loop id="myVideo" playsinline>

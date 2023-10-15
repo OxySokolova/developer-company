@@ -9,8 +9,8 @@ function End(){
             </div>
             <div><img src={logo} alt="logo" width="100px"/></div>
             <div className='signature'>
-                <p> +62 (0)371 70 7777</p>
-                <p>Jl. Pantai Batu Bolong No.93xx, Canggu,<br /> Kec. Kuta Utara, Bali, Indonesia</p>
+                <p> +66 37 170 7777</p>
+                <p>212-200 Pa Tong, Kathu District,<br /> Phuket 83150, Thailand</p>
                 <p>developer_company@gmail.com</p>
             </div>
         </div>

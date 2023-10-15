@@ -15,12 +15,12 @@ function About() {
 
     <div>
     <h1 className="aboutHeadName"><span className="blueWords"> MODERN </span>PRIVATE <span className="blueWords">VILLAS</span></h1>
-    <p className="aboutHeadPar">A unique complex in close proximity to the ocean on a view plot <br/> with rice fields in the most popular tourist area of Bali</p>
+    <p className="aboutHeadPar">A unique complex in close proximity to the sea on a view plot <br/> with rice fields in the most popular tourist area of Phuket</p>
     </div>
 
     <div className="aboutDescriptPar">
-        <p className="lines">in a quiet location without traffic and noise, but a couple of minutes from the hot spots of Canggu</p>
-        <p className="lines">stylish design with preservation of Balinese atmosphere</p>
+        <p className="lines">in a quiet location without traffic and noise, but a couple of minutes from the hot spots of Patong</p>
+        <p className="lines">stylish design with preservation of Thai atmosphere</p>
         <p className="lines">high quality climate-aware and smart space</p>
     </div>
     {/* прокручивающееся фото */}
@@ -30,11 +30,11 @@ function About() {
 
     <div className="aboutLocation">
         <img src="https://static.tildacdn.com/tild6230-3661-4237-b061-353230653739/exercise_.png" alt="emblemPerson" width="50px"/>
-        <p className="aboutHeadText">EASY ACCESS TO THE MOST POPULAR AND VISITED FITNESS/CROSSFIT CLUBS IN BALI</p>
+        <p className="aboutHeadText">EASY ACCESS TO THE MOST POPULAR AND VISITED FITNESS/CROSSFIT CLUBS IN THAILAND</p>
         <img src="https://static.tildacdn.com/tild6531-3361-4432-b038-633538363466/island-with-palm-tre.png" alt="emblemPalm" width="50px"/>
-        <p className="aboutHeadText">A 14-MINUTE DRIVE FROM BERAWA BEACH AND FINNS BEACH CLUB</p>
+        <p className="aboutHeadText">A 14-MINUTE DRIVE FROM KARON BEACH AND BEACH CLUB</p>
         <img src="https://static.tildacdn.com/tild3134-6332-4838-a365-363434346232/flash_.png" alt="emblemLightning" width="50px"/>
-        <p className="aboutHeadText">A FEW MINUTES TO THE HOTTEST SPOTS OF CHANGU</p>
+        <p className="aboutHeadText">A FEW MINUTES TO THE HOTTEST SPOTS OF PATONG</p>
     </div>
 
     <div className="aboutBlockPhotoRooms">

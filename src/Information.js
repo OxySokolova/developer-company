@@ -15,7 +15,7 @@ function Information() {
             <div className='infoBoxRight'>
             <ul>
             {/* <img src="https://static.tildacdn.com/tild3364-6362-4265-b136-373562653031/gggggg.svg"/> */}
-                <li><b>SEARCH FOR A LAND PLOT IN THE MOST POPULAR AREAS OF BALI</b> we screen for construction suitability, slope, soil, ground water, etc.</li>
+                <li><b>SEARCH FOR A LAND PLOT IN THE MOST POPULAR AREAS OF THAILAND</b> we screen for construction suitability, slope, soil, ground water, etc.</li>
                 <li><b>DEVELOPMENT OF ARCHITECTURAL AND DESIGN PROJECTS</b> we engage with local and foreign architects to deliver results that fit your needs</li>
                 <li><b>REGISTRATION OF ALL DOCUMENTS</b> we conduct due diligence at various stages of the process</li>
                 <li><b>CONSTRUCTION TAKES 10-12 MONTHS ON AVERAGE</b> during this time we project manage and share regularly photo and video reports</li>
