@@ -323,10 +323,10 @@ li {
     width: 40px;
 }   
 .first{
-    font-size: 15px;
+    font-size: 17px;
 }
 .second{
-    font-size: 20px;
+    font-size: 25px;
 } 
 .aboutHead {
     display: flex;
@@ -337,23 +337,23 @@ li {
 .aboutHeadText {
     margin: 0px 20px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 .aboutImg {
-    width: 23px;
+    width: 25px;
 }
 .aboutHeadName {
     font-size: 20px;
     margin-top: 20px;
 }
 .aboutHeadPar {
-    font-size: 13px;
+    font-size: 15px;
 }
 .aboutDescriptPar {
     display: flex;
     flex-direction: column;
     margin: 0px 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .lines {
     height: 20px;
@@ -365,7 +365,7 @@ li {
     display: flex;
     flex-direction: column;
     margin: 50px 30px;
-    width: 80%;
+    width: 90%;
 }
 .parContainerSlides {   
     align-self: flex-start; 
@@ -378,7 +378,7 @@ li {
     width: 20px; 
 }
 .slidesImg {
-    width: 100%; 
+    width: 260px; 
     height: 300px;
 }
 .parText {
@@ -391,11 +391,12 @@ li {
 .aboutLocation {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 170px;
     padding: 20px 0px;
 }
 .aboutHeadText {
     font-size: 12px;
+    padding: 5px;
 }
 .aboutBlockPhotoRooms {
     display: flex;
@@ -417,6 +418,7 @@ li {
     align-items: center;
 }
 .aboutBox {
+    width: 300px;
     height: 100px;
     margin: 10px 0px;
     font-size: 15px;
