@@ -7,7 +7,7 @@ function End(){
                 <p>2023 DevelopmentCompany </p>
                 <p>Privacy Policy</p>
             </div>
-            <div><img src={logo} alt="logo" width="100px"/></div>
+            <div><img className='endLogo' src={logo} alt="logo" width="100px"/></div>
             <div className='signature'>
                 <p> +66 37 170 7777</p>
                 <p>212-200 Pa Tong, Kathu District,<br /> Phuket 83150, Thailand</p>

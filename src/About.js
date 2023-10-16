@@ -20,11 +20,11 @@ function About() {
     return(
         <div>
     <div className="aboutHead">
-        <img src="https://static.tildacdn.com/tild3732-3037-4133-a566-303830613035/free-icon-podium-824.png" alt="emblem" width="50px"/>
+        <img className="aboutImg" src="https://static.tildacdn.com/tild3732-3037-4133-a566-303830613035/free-icon-podium-824.png" alt="emblem" width="50px"/>
         <p className="aboutHeadText">We offer the best value for money properties that strike a balance of excellent location, low acquisition cost and high rental yields</p>
-        <img src="https://static.tildacdn.com/tild3739-3361-4534-b132-303133333138/free-icon-hands-5773.png" alt="emblemHands" width="50px"/>
+        <img  className="aboutImg" src="https://static.tildacdn.com/tild3739-3361-4534-b132-303133333138/free-icon-hands-5773.png" alt="emblemHands" width="50px"/>
         <p className="aboutHeadText">Full support for all stages of the transaction, even remotely. Legality and transparency of all processes. Installments by stages of construction</p>
-        <img src="https://static.tildacdn.com/tild3263-6539-4361-a332-653034386565/free-icon-house-9419.png" alt="emblemHouse" width="50px"/>
+        <img className="aboutImg" src="https://static.tildacdn.com/tild3263-6539-4361-a332-653034386565/free-icon-house-9419.png" alt="emblemHouse" width="50px"/>
         <p className="aboutHeadText">An experienced management company will ensure the efficient operation of your investments</p>
     </div>
 
@@ -44,11 +44,11 @@ function About() {
     <Slides/>
 
     <div className="aboutLocation">
-        <img src="https://static.tildacdn.com/tild6230-3661-4237-b061-353230653739/exercise_.png" alt="emblemPerson" width="50px"/>
+        <img className="aboutImg" src="https://static.tildacdn.com/tild6230-3661-4237-b061-353230653739/exercise_.png" alt="emblemPerson" width="50px"/>
         <p className="aboutHeadText">EASY ACCESS TO THE MOST POPULAR AND VISITED FITNESS/CROSSFIT CLUBS IN THAILAND</p>
-        <img src="https://static.tildacdn.com/tild6531-3361-4432-b038-633538363466/island-with-palm-tre.png" alt="emblemPalm" width="50px"/>
+        <img className="aboutImg" src="https://static.tildacdn.com/tild6531-3361-4432-b038-633538363466/island-with-palm-tre.png" alt="emblemPalm" width="50px"/>
         <p className="aboutHeadText">A 14-MINUTE DRIVE FROM KARON BEACH AND BEACH CLUB</p>
-        <img src="https://static.tildacdn.com/tild3134-6332-4838-a365-363434346232/flash_.png" alt="emblemLightning" width="50px"/>
+        <img className="aboutImg" src="https://static.tildacdn.com/tild3134-6332-4838-a365-363434346232/flash_.png" alt="emblemLightning" width="50px"/>
         <p className="aboutHeadText">A FEW MINUTES TO THE HOTTEST SPOTS OF PATONG</p>
     </div>
 
@@ -58,7 +58,7 @@ function About() {
     <img className="aboutImageRoom" src="https://img.freepik.com/premium-photo/architectural-rendering-bathroom-spa-salon_202873-2945.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
         </div>
         
-    <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/bedroom-with-balcony-plants-wall_1340-34194.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width=""/>
+    <img className="aboutImageRoom-center" src="https://img.freepik.com/free-photo/bedroom-with-balcony-plants-wall_1340-34194.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width=""/>
         
         <div className="aboutPhotoRooms-twoBlock">
     <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>

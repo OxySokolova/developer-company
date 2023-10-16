@@ -18,7 +18,7 @@ function App() {
       <nav className="nav">
         <HashLink  to="/#about" className='item'>ABOUT US</HashLink>
         <HashLink to="/#projects" className=' item'>PROJECTS</HashLink>
-        <img src={logo} alt="logo" width="70px"/>
+        <img className="navLogo" src={logo} alt="logo" width="70px"/>
         <HashLink  to="/#process" className=' item'>PROCESS</HashLink>
         <HashLink  to="/#consultation" className=' item'>CONSULTATION</HashLink>
       </nav>
