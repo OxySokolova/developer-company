@@ -323,10 +323,10 @@ li {
     width: 40px;
 }   
 .first{
-    font-size: 15px;
+    font-size: 17px;
 }
 .second{
-    font-size: 20px;
+    font-size: 25px;
 } 
 .aboutHead {
     display: flex;
@@ -337,23 +337,23 @@ li {
 .aboutHeadText {
     margin: 0px 20px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 .aboutImg {
-    width: 23px;
+    width: 25px;
 }
 .aboutHeadName {
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 30px;
 }
 .aboutHeadPar {
-    font-size: 13px;
+    font-size: 15px;
 }
 .aboutDescriptPar {
     display: flex;
     flex-direction: column;
     margin: 0px 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .lines {
     height: 20px;
@@ -365,7 +365,7 @@ li {
     display: flex;
     flex-direction: column;
     margin: 50px 30px;
-    width: 80%;
+    width: 90%;
 }
 .parContainerSlides {   
     align-self: flex-start; 
@@ -378,7 +378,7 @@ li {
     width: 20px; 
 }
 .slidesImg {
-    width: 100%; 
+    width: 260px; 
     height: 300px;
 }
 .parText {
@@ -391,11 +391,12 @@ li {
 .aboutLocation {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 170px;
     padding: 20px 0px;
 }
 .aboutHeadText {
     font-size: 12px;
+    padding: 5px;
 }
 .aboutBlockPhotoRooms {
     display: flex;
@@ -417,6 +418,7 @@ li {
     align-items: center;
 }
 .aboutBox {
+    width: 300px;
     height: 100px;
     margin: 10px 0px;
     font-size: 15px;
@@ -526,5 +528,221 @@ li {
 .endLogo {
     width: 50px;
     margin: 0px 25px;
+}
+}
+
+@media all and (max-width: 800px) {
+    /* About.js */
+.item{
+    padding:20px;
+    font-size: 20px;
+    }
+.navLogo {
+    width: 70px;
+}   
+.first{
+    font-size: 25px;
+}
+.second{
+    font-size: 35px;
+} 
+.aboutHead {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 70px 20px;
+}
+.aboutHeadText {
+    width: 50%;
+    margin: 0px 20px;
+    text-align: center;
+}
+.aboutImg {
+    width: 30px;
+}
+.aboutHeadName {
+    font-size: 35px;
+    margin-top: 30px;
+}
+.aboutHeadPar {
+    font-size: 25px;
+}
+.aboutDescriptPar {
+    margin: 20px 30px 50px;
+    font-size: 20px;
+}
+.lines {
+    height: 100px;
+}
+.parallax {
+    height: 300px;
+}
+.slidesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 30px;
+    width: 90%;
+}
+.parContainerSlides {   
+    align-self: center; 
+    width: 30%;
+}
+.investContainerSlides {
+    margin: 0px 50px;
+}
+.slidesSvg {
+    width: 20px; 
+}
+.slidesImg {
+    width: 400px; 
+    height: 500px;
+}
+.parTextHead {
+    font-size: 35px;
+    text-align: center;
+}
+.parText {
+    font-size: 25px;
+}
+.aboutLocation {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 20px 0px;
+}
+.aboutHeadText {
+    font-size: 15px;
+    padding: 10px;
+}
+.aboutBlockPhotoRooms {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+.aboutImageRoom-center {
+    padding: 5px;
+    border-radius: 40px;
+    width: 92%;
+}
+.aboutImageRoom {
+    width: 45%;
+    height: 180px;
+}
+.aboutFiveBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutBox {
+    width: 500px;
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.aboutDarkBox {
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+/* Price.js */
+.priceBox {
+    margin-top: 30px;
+}
+.priceItem {
+    width: 150px;
+    margin: 10px;
+}
+.priceNumber {
+    font-size: 25px;
+}
+.priceText {
+    font-size: 16px;
+}
+.priceButton {
+    display: flex;
+    justify-content: center;
+}
+.priceBtn {
+    padding: 10px 30px;
+    margin: 20px 10px 30px;
+    font-size: 15px;
+}
+.generalPlan {
+    width: 70%;
+}
+/* Feedback.js */
+.serf{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #607990;
+    padding: 10px 0px;
+}
+.feedbackName{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.feedbackText{
+    color:white;
+    font-size: 18px;
+    width: 70%;
+    padding-left: 10px;
+}
+.feedbackAll{
+    margin-right: 100px;
+    margin-left: 70px;
+}
+.sbm{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.thanks{
+    display: none;
+}
+/* Information.js */
+.parallaxTwo {
+    height: 350px;
+    }
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+.infoBoxLeft {
+    width: 70%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.infoBoxRight {
+    width: 80%;
+    margin: 20px 15px;
+}
+.infoHead {
+    font-size: 30px;
+}
+.infoPar {
+    font-size: 18px;
+}
+li {
+    font-size: 18px;
+    padding: 0px 10px;
+}
+.endBackgroung{
+    display: flex;
+    justify-content: center;
+}
+.signature{
+    font-size: 16px;
+}
+.endLogo {
+    width: 60px;
+    margin: 0px 50px;
 }
 }
