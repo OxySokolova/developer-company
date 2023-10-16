@@ -30,7 +30,7 @@ function Price() {
         </div>
 
         <div className="priceImage"> 
-        <img src={general} alt="photoPlan"/>
+        <img className="generalPlan" src={general} alt="photoPlan"/>
         </div>
 
         </div>

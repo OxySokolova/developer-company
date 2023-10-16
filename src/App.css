@@ -72,6 +72,10 @@
     padding: 5px;
     border-radius: 40px;
 }
+.aboutImageRoom-center {
+    padding: 5px;
+    border-radius: 40px;
+}
 .aboutFiveBoxes {
     display: flex;
     justify-content: space-around;
@@ -105,6 +109,9 @@ text-align: center;
     justify-content: space-around;
     margin: 50px 100px 50px;
 }
+.slidesBtnAndImage {
+    display: flex;
+}
 .parContainerSlides {    
 margin-left: 50px;
 align-self: center;
@@ -119,7 +126,6 @@ width: 250px;
 }
 .parText {
     font-family: 'Source Sans 3', sans-serif;
-    
     font-size: 18px;
 }
 .parTextHead {
@@ -305,4 +311,220 @@ li {
     color:white;
     font-family: 'Source Sans 3', sans-serif;
     font-size: 15px;
+}
+
+@media all and (max-width: 500px) {
+    /* About.js */
+.item{
+    padding:10px;
+    font-size: 12px;
+    }
+.navLogo {
+    width: 40px;
+}   
+.first{
+    font-size: 15px;
+}
+.second{
+    font-size: 20px;
+} 
+.aboutHead {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 70px 10px;
+}
+.aboutHeadText {
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.aboutImg {
+    width: 23px;
+}
+.aboutHeadName {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.aboutHeadPar {
+    font-size: 13px;
+}
+.aboutDescriptPar {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+.lines {
+    height: 20px;
+}
+.parallax {
+    height: 250px;
+}
+.slidesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    width: 80%;
+}
+.parContainerSlides {   
+    align-self: flex-start; 
+    width: 50%;
+}
+.investContainerSlides {
+    margin: 0px 50px;
+}
+.slidesSvg {
+    width: 20px; 
+}
+.slidesImg {
+    width: 100%; 
+    height: 300px;
+}
+.parText {
+    font-size: 15px;
+}
+.parTextHead {
+    font-size: 20px;
+    text-align: center;
+}
+.aboutLocation {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 20px 0px;
+}
+.aboutHeadText {
+    font-size: 12px;
+}
+.aboutBlockPhotoRooms {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+.aboutImageRoom-center {
+    padding: 5px;
+    border-radius: 40px;
+    width: 92%;
+}
+.aboutImageRoom {
+    width: 45%;
+    height: 110px;
+}
+.aboutFiveBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutBox {
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.aboutDarkBox {
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+/* Price.js */
+.priceBox {
+    margin-top: 20px;
+}
+.priceItem {
+    width: 90px;
+    margin: 10px;
+}
+.priceNumber {
+    font-size: 20px;
+}
+.priceText {
+    font-size: 15px;
+}
+.priceButton {
+    display: flex;
+    justify-content: center;
+}
+.priceBtn {
+    padding: 10px 10px;
+    margin: 20px 10px 30px;
+    font-size: 10px;
+}
+.generalPlan {
+    width: 80%;
+}
+/* Feedback.js */
+.serf{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #607990;
+    padding: 10px 0px;
+}
+.feedbackName{
+    color:white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.feedbackText{
+    color:white;
+    font-size: 15px;
+    width: 90%;
+    padding-left: 10px;
+}
+.feedbackAll{
+    margin-right: 100px;
+    margin-left: 70px;
+}
+.sbm{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.thanks{
+    display: none;
+}
+/* Information.js */
+.parallaxTwo {
+    height: 250px;
+    }
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+.infoBoxLeft {
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.infoBoxRight {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.infoHead {
+    font-size: 20px;
+}
+.infoPar {
+    font-size: 15px;
+}
+li {
+    font-size: 13px;
+}
+.endBackgroung{
+    display: flex;
+    justify-content: center;
+}
+.signature{
+    font-size: 10px;
+}
+.endLogo {
+    width: 50px;
+    margin: 0px 25px;
+}
 }
