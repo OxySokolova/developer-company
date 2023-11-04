@@ -173,7 +173,7 @@ width: 250px;
 }
 .priceBtn:hover {
     background-color: #607990;
-}  
+}   
 
 .priceImage {
     display: flex;
@@ -213,6 +213,8 @@ body{
     background-color: #667e94;
     justify-content: center;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 .item{
     text-decoration: none;
@@ -315,8 +317,8 @@ li {
 
 @media all and (max-width: 500px) {
     /* About.js */
-.item{
-    padding:10px;
+.item {
+    padding: 10px;
     font-size: 12px;
     }
 .navLogo {
@@ -486,9 +488,6 @@ li {
 .sbm{
     font-size: 15px;
     padding-left: 10px;
-}
-.thanks{
-    display: none;
 }
 /* Information.js */
 .parallaxTwo {
@@ -702,9 +701,6 @@ li {
 .sbm{
     font-size: 18px;
     padding-left: 10px;
-}
-.thanks{
-    display: none;
 }
 /* Information.js */
 .parallaxTwo {
