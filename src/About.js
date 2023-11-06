@@ -1,6 +1,6 @@
 import Slides from "./Slides";
 import './App.css';
-import Swal from "sweetalert2";
+import Swal from 'sweetalert2';
 
 function About() {
     const handleAlert = () => {
