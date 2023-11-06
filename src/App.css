@@ -547,7 +547,7 @@ li {
 .aboutHead {
     display: flex;
     flex-direction: column;
-    height: 170px;
+    height: 200px;
     padding: 70px 10px;
 }
 .aboutHeadText {
@@ -609,7 +609,7 @@ li {
 .aboutLocation {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 220px;
     padding: 20px 0px;
 }
 .aboutHeadText {
