@@ -215,7 +215,7 @@ body{
     padding: 10px;
     position: sticky;
     top: 0;
-}
+    }
 .item{
     text-decoration: none;
     color: white;
@@ -315,220 +315,7 @@ li {
     font-size: 15px;
 }
 
-@media all and (max-width: 500px) {
-    /* About.js */
-.item {
-    padding: 10px;
-    font-size: 13px;
-    }
-.navLogo {
-    width: 40px;
-}   
-.first{
-    font-size: 17px;
-}
-.second{
-    font-size: 25px;
-} 
-.aboutHead {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    padding: 70px 10px;
-}
-.aboutHeadText {
-    margin: 0px 20px;
-    text-align: center;
-    font-size: 15px;
-}
-.aboutImg {
-    width: 25px;
-}
-.aboutHeadName {
-    font-size: 25px;
-    margin-top: 30px;
-}
-.aboutHeadPar {
-    font-size: 15px;
-}
-.aboutDescriptPar {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px;
-    font-size: 15px;
-}
-.lines {
-    height: 20px;
-}
-.parallax {
-    height: 250px;
-}
-.slidesContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 30px;
-    width: 90%;
-}
-.parContainerSlides {   
-    align-self: flex-start; 
-    width: 50%;
-}
-.investContainerSlides {
-    margin: 0px 50px;
-}
-.slidesSvg {
-    width: 20px; 
-}
-.slidesImg {
-    width: 260px; 
-    height: 300px;
-}
-.parText {
-    font-size: 15px;
-}
-.parTextHead {
-    font-size: 20px;
-    text-align: center;
-}
-.aboutLocation {
-    display: flex;
-    flex-direction: column;
-    height: 170px;
-    padding: 20px 0px;
-}
-.aboutHeadText {
-    font-size: 12px;
-    padding: 5px;
-}
-.aboutBlockPhotoRooms {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 20px;
-}
-.aboutImageRoom-center {
-    padding: 5px;
-    border-radius: 40px;
-    width: 92%;
-}
-.aboutImageRoom {
-    width: 45%;
-    height: 110px;
-}
-.aboutFiveBoxes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.aboutBox {
-    width: 300px;
-    height: 100px;
-    margin: 10px 0px;
-    font-size: 15px;
-}
-.aboutDarkBox {
-    height: 100px;
-    margin: 10px 0px;
-    font-size: 13px;
-}
-/* Price.js */
-.priceBox {
-    margin-top: 20px;
-}
-.priceItem {
-    width: 90px;
-    margin: 10px;
-}
-.priceNumber {
-    font-size: 20px;
-}
-.priceText {
-    font-size: 15px;
-}
-.priceButton {
-    display: flex;
-    justify-content: center;
-}
-.priceBtn {
-    padding: 10px 10px;
-    margin: 20px 10px 30px;
-    font-size: 10px;
-}
-.generalPlan {
-    width: 80%;
-}
-/* Feedback.js */
-.serf{
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-}
-.message{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 0px;
-    background-color: #607990;
-    padding: 10px 0px;
-}
-.feedbackName{
-    color:white;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.feedbackText{
-    color:white;
-    font-size: 15px;
-    width: 90%;
-    padding-left: 10px;
-}
-.feedbackAll{
-    margin-right: 100px;
-    margin-left: 70px;
-}
-.sbm{
-    font-size: 15px;
-    padding-left: 10px;
-}
-/* Information.js */
-.parallaxTwo {
-    height: 250px;
-    }
-.infoContainer {
-    display: flex;
-    flex-direction: column;
-}
-.infoBoxLeft {
-    width: 80%;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 0px;
-}
-.infoBoxRight {
-    width: 90%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.infoHead {
-    font-size: 20px;
-}
-.infoPar {
-    font-size: 15px;
-}
-li {
-    font-size: 13px;
-}
-.endBackgroung{
-    display: flex;
-    justify-content: center;
-}
-.signature{
-    font-size: 10px;
-}
-.endLogo {
-    width: 50px;
-    margin: 0px 25px;
-}
-}
+
 
 @media all and (max-width: 800px) {
     /* About.js */
@@ -740,5 +527,221 @@ li {
 .endLogo {
     width: 60px;
     margin: 0px 50px;
+}
+}
+@media all and ( max-width: 500px) {
+    /* About.js */
+.item {
+    padding: 10px;
+    font-size: 12px ;
+    }
+.navLogo {
+    width: 30px ;
+}   
+.first{
+    font-size: 17px;
+}
+.second{
+    font-size: 25px;
+} 
+.aboutHead {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 70px 10px;
+}
+.aboutHeadText {
+    margin: 0px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.aboutImg {
+    width: 25px;
+}
+.aboutHeadName {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.aboutHeadPar {
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+.aboutDescriptPar {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    font-size: 15px;
+    height: 200px;
+}
+.lines {
+    height: 20px;
+}
+.parallax {
+    height: 250px;
+}
+.slidesContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    width: 90%;
+}
+.parContainerSlides {   
+    align-self: flex-start; 
+    width: 50%;
+}
+.investContainerSlides {
+    margin: 0px 50px;
+}
+.slidesSvg {
+    width: 20px; 
+}
+.slidesImg {
+    width: 260px; 
+    height: 300px;
+}
+.parText {
+    font-size: 15px;
+}
+.parTextHead {
+    font-size: 20px;
+    text-align: center;
+}
+.aboutLocation {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    padding: 20px 0px;
+}
+.aboutHeadText {
+    font-size: 12px;
+    padding: 5px;
+}
+.aboutBlockPhotoRooms {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+.aboutImageRoom-center {
+    padding: 5px;
+    border-radius: 40px;
+    width: 92%;
+}
+.aboutImageRoom {
+    width: 45%;
+    height: 110px;
+}
+.aboutFiveBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutBox {
+    width: 300px;
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.aboutDarkBox {
+    height: 100px;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+/* Price.js */
+.priceBox {
+    margin-top: 20px;
+}
+.priceItem {
+    width: 90px;
+    margin: 10px;
+}
+.priceNumber {
+    font-size: 20px;
+}
+.priceText {
+    font-size: 15px;
+}
+.priceButton {
+    display: flex;
+    justify-content: center;
+}
+.priceBtn {
+    padding: 10px 10px;
+    margin: 20px 10px 30px;
+    font-size: 10px;
+}
+.generalPlan {
+    width: 80%;
+}
+/* Feedback.js */
+.serf{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #607990;
+    padding: 10px 0px;
+}
+.feedbackName{
+    color:white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.feedbackText{
+    color:white;
+    font-size: 15px;
+    width: 90%;
+    padding-left: 10px;
+}
+.feedbackAll{
+    margin-right: 100px;
+    margin-left: 70px;
+}
+.sbm{
+    font-size: 15px;
+    padding-left: 10px;
+}
+/* Information.js */
+.parallaxTwo {
+    height: 250px;
+    }
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+.infoBoxLeft {
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.infoBoxRight {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.infoHead {
+    font-size: 20px;
+}
+.infoPar {
+    font-size: 15px;
+}
+li {
+    font-size: 13px;
+}
+.endBackgroung{
+    display: flex;
+    justify-content: center;
+}
+.signature{
+    font-size: 10px;
+}
+.endLogo {
+    width: 50px;
+    margin: 0px 25px;
 }
 }
