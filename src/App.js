@@ -25,13 +25,13 @@ function App() {
     <div>
       <Video />
 
-      <section id="about"><About /></section>
+      <section id="about" className='gap'><About /></section>
 
-      <section id="projects"><Price /></section>
+      <section id="projects"className='gap'><Price /></section>
 
-      <section id="consultation"><Feedback /></section>
+      <section id="consultation"className='gap'><Feedback /></section>
 
-      <section id="process"><Information /></section>
+      <section id="process"className='gap'><Information /></section>
 
       <End />
     </div>

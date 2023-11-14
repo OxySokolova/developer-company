@@ -1,21 +1,21 @@
 import Slides from "./Slides";
 import './App.css';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 function About() {
-    const handleAlert = () => {
-        Swal.fire({
-            title: 'Get a calculation of the profitability of this project',
-            input: 'email',
-            inputAttributes: {
-            placeholder: 'e-mail',
-            autocapitalize: 'off'
-            },
-            showCancelButton: true,
-            confirmButtonText: 'Submit',
+    // const handleAlert = () => {
+    //     Swal.fire({
+    //         title: 'Get a calculation of the profitability of this project',
+    //         input: 'email',
+    //         inputAttributes: {
+    //         placeholder: 'e-mail',
+    //         autocapitalize: 'off'
+    //         },
+    //         showCancelButton: true,
+    //         confirmButtonText: 'Submit',
             
-        })
-    }
+    //     })
+    // }
 
     return(
         <div>
@@ -83,9 +83,11 @@ function About() {
         <p><span className="blueWords">LEASEHOLD </span> 
         30 years with extansion</p>
         </div>
-    <div className="">
-        <button className="aboutDarkBox" onClick={handleAlert}>GET THE PROFITABILITY CALCULATION</button>
-    </div>
+
+        <a href="/#consultation" className=' item'>
+        <button className="aboutDarkBox" >GET THE PROFITABILITY CALCULATION</button>
+        </a>
+
     </div>
     </div>
     )
