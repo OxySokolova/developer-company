@@ -216,7 +216,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
-}
+    }
 .item{
     text-decoration: none;
     color: white;
@@ -537,7 +537,7 @@ li {
     font-size: 12px ;
     }
 .navLogo {
-    width: 30px ;
+    width: 40px ;
 }   
 .first{
     font-size: 17px;

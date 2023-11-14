@@ -1,21 +1,8 @@
 import Slides from "./Slides";
 import './App.css';
-// import Swal from 'sweetalert2';
+
 
 function About() {
-    // const handleAlert = () => {
-    //     Swal.fire({
-    //         title: 'Get a calculation of the profitability of this project',
-    //         input: 'email',
-    //         inputAttributes: {
-    //         placeholder: 'e-mail',
-    //         autocapitalize: 'off'
-    //         },
-    //         showCancelButton: true,
-    //         confirmButtonText: 'Submit',
-            
-    //     })
-    // }
 
     return(
         <div>
