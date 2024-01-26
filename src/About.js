@@ -45,7 +45,7 @@ function About() {
     <img className="aboutImageRoom" src="https://img.freepik.com/premium-photo/architectural-rendering-bathroom-spa-salon_202873-2945.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
         </div>
         
-    <img className="aboutImageRoom-center" src="https://img.freepik.com/free-photo/bedroom-with-balcony-plants-wall_1340-34194.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width=""/>
+    <img className="aboutImageRoom-center" src="https://img.freepik.com/free-photo/bedroom-with-balcony-plants-wall_1340-34194.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="708px"/>
         
         <div className="aboutPhotoRooms-twoBlock">
     <img className="aboutImageRoom" src="https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497253.jpg?size=626&ext=jpg&ga=GA1.1.84432645.1669720629&semt=ais" alt="" width="350px" height="230px"/>
