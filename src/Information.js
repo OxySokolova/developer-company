@@ -6,13 +6,13 @@ function Information() {
         {/* прокручивающееся фото */}
         <div className="parallaxTwo"></div>
 
-        <div className='infoContainer'>
-            <div className='infoBoxLeft'>
-            <h3 className='infoHead'>WE TAKE CARE OF THE <span className='blueWords'>ENTIRE PROCESS</span> OF BUILDING YOUR VILLA</h3>
-            <p className='infoPar'><span className='lightBlueWords'>YOU </span><span className='blueWords'><b>DO NOT INCUR ANY ADDITIONAL COSTS</b></span> <span className='lightBlueWords'> FROM THE IDEA TO THE MEETING OF THE FIRST TENANTS OF YOUR VILLA</span></p>
+        <div className="infoContainer">
+            <div className="infoBoxLeft">
+            <h3 className="infoHead">WE TAKE CARE OF THE <span className="blueWords">ENTIRE PROCESS</span> OF BUILDING YOUR VILLA</h3>
+            <p className="infoPar"><span className="lightBlueWords">YOU </span><span className="blueWords"><b>DO NOT INCUR ANY ADDITIONAL COSTS</b></span> <span className='lightBlueWords'> FROM THE IDEA TO THE MEETING OF THE FIRST TENANTS OF YOUR VILLA</span></p>
             </div>
 
-            <div className='infoBoxRight'>
+            <div className="infoBoxRight">
             <ul>
                 <li><b>SEARCH FOR A LAND PLOT IN THE MOST POPULAR AREAS OF THAILAND</b> we screen for construction suitability, slope, soil, ground water, etc.</li>
                 <li><b>DEVELOPMENT OF ARCHITECTURAL AND DESIGN PROJECTS</b> we engage with local and foreign architects to deliver results that fit your needs</li>

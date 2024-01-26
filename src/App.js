@@ -16,22 +16,22 @@ function App() {
     <Router>
     <div>
       <nav className="nav">
-        <HashLink  to="/#about" className='item'>ABOUT US</HashLink>
-        <HashLink to="/#projects" className=' item'>PROJECTS</HashLink>
+        <HashLink  to="/#about" className="item">ABOUT US</HashLink>
+        <HashLink to="/#projects" className="item">PROJECTS</HashLink>
         <img className="navLogo" src={logo} alt="logo" width="70px"/>
-        <HashLink  to="/#process" className=' item'>PROCESS</HashLink>
-        <HashLink  to="/#consultation" className=' item'>CONSULTATION</HashLink>
+        <HashLink  to="/#process" className="item">PROCESS</HashLink>
+        <HashLink  to="/#consultation" className="item">CONSULTATION</HashLink>
       </nav>
     <div>
       <Video />
 
-      <section id="about" className='gap'><About /></section>
+      <section id="about" className="gap"><About /></section>
 
-      <section id="projects"className='gap'><Price /></section>
+      <section id="projects"className="gap"><Price /></section>
 
-      <section id="consultation"className='gap'><Feedback /></section>
+      <section id="consultation"className="gap"><Feedback /></section>
 
-      <section id="process"className='gap'><Information /></section>
+      <section id="process"className="gap"><Information /></section>
 
       <End />
     </div>
