@@ -316,9 +316,7 @@ li {
     font-size: 15px;
 }
 
-
-
-@media all and (max-width: 800px) {
+@media all and (max-width: 1500px) {
     /* About.js */
 .item{
     padding:20px;
@@ -355,8 +353,11 @@ li {
     font-size: 25px;
 }
 .aboutDescriptPar {
-    margin: 20px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
     font-size: 20px;
+    height: 200px;
 }
 .lines {
     height: 100px;
@@ -366,10 +367,13 @@ li {
 }
 .slidesContainer {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     margin: 50px 30px;
     width: 90%;
+}
+.slidesBtnAndImage {
+    justify-content: center;
 }
 .parContainerSlides {   
     align-self: center; 
@@ -568,11 +572,7 @@ li {
     flex-wrap: wrap;
 }
 .aboutDescriptPar {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px;
     font-size: 15px;
-    height: 200px;
 }
 .lines {
     height: 20px;
@@ -581,20 +581,11 @@ li {
     height: 250px;
 }
 .slidesContainer {
-    display: flex;
     flex-direction: column;
-    margin: 50px 30px;
-    width: 90%;
 }
 .parContainerSlides {   
     align-self: flex-start; 
     width: 50%;
-}
-.investContainerSlides {
-    margin: 0px 50px;
-}
-.slidesSvg {
-    width: 20px; 
 }
 .slidesImg {
     width: 260px; 
