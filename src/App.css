@@ -527,15 +527,40 @@ li {
     margin: 0px 50px;
 }
 }
+@media all and ( max-width: 800px){
+    .item {
+        padding: 10px;
+        font-size: 12px ;
+        }
+    .navLogo {
+        width: 40px ;
+    } 
+    .aboutBlockPhotoRooms {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px;
+    }
+    .aboutImageRoom-center {
+        padding: 5px;
+        border-radius: 40px;
+        width: 350px;
+    }
+    .aboutPhotoRooms-oneBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutPhotoRooms-twoBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
 @media all and ( max-width: 500px) {
     /* About.js */
-.item {
-    padding: 10px;
-    font-size: 12px ;
-    }
-.navLogo {
-    width: 40px ;
-}   
+  
 .first{
     font-size: 17px;
 }
@@ -601,20 +626,7 @@ li {
     font-size: 12px;
     padding: 5px;
 }
-.aboutBlockPhotoRooms {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 20px;
-}
-.aboutImageRoom-center {
-    padding: 5px;
-    border-radius: 40px;
-    width: 92%;
-}
-.aboutImageRoom {
-    width: 45%;
-    height: 110px;
-}
+
 .aboutFiveBoxes {
     display: flex;
     flex-direction: column;
