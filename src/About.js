@@ -70,11 +70,11 @@ function About() {
         <p><span className="blueWords">LEASEHOLD </span> 
         30 years with extansion</p>
         </div>
-
-        <a href="/#consultation" className=' item'>
+    <div>
+        <a href="/#consultation" className="item">
         <button className="aboutDarkBox" >GET THE PROFITABILITY CALCULATION</button>
         </a>
-
+    </div>
     </div>
     </div>
     )
