@@ -315,6 +315,35 @@ li {
     font-family: 'Source Sans 3', sans-serif;
     font-size: 15px;
 }
+.cartIcon{
+    width: 70px;
+}
+.icon {
+    width: 20px;
+}
+.offer {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 30px;
+}
+.num {
+    background-color: #9eafbf; 
+    border: none;
+    border-radius: 50px;
+    width: 25px;
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+}
+.booking {
+    background-color: #667e94;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+}
 
 @media all and (max-width: 1400px) {
     /* About.js */

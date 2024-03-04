@@ -7,6 +7,8 @@ import Feedback from './Feedback';
 import Information from './Information';
 import End from './End';
 import logo from './villa-modified.png';
+import Cart from './Components/CartComp/Cart';
+import AllProjects from './Components/VillasComp/AllProjects';
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
@@ -28,6 +30,10 @@ function App() {
       <section id="about" className="gap"><About /></section>
 
       <section id="projects"className="gap"><Price /></section>
+    <div className='offer'>
+      <AllProjects/>
+      <Cart/>
+    </div>
 
       <section id="consultation"className="gap"><Feedback /></section>
 
