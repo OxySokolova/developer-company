@@ -1,7 +1,7 @@
 import { useState } from "react";
-import generalPlan from './generalPlan.png';
-import twoBedroom from './twoBedroom.png';
-import oneBedroom from './oneBedroom.png';
+import generalPlan from '../assets/generalPlan.png';
+import twoBedroom from '../assets/twoBedroom.png';
+import oneBedroom from '../assets/oneBedroom.png';
 
 
 function Price() {

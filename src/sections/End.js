@@ -1,5 +1,5 @@
-import './App.css'
-import logo from './villa-modified.png'
+import '../App.css'
+import logo from '../assets/villa-modified.png'
 function End(){
     return(
         <div className="endBackgroung">

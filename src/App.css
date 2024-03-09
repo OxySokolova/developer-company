@@ -225,7 +225,7 @@ body{
     font-size: 20px;
 }
 .serf{
-    background-image: url("serf.png");
+    background-image: url("./assets/serf.png");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -769,5 +769,15 @@ li {
 .endLogo {
     width: 50px;
     margin: 0px 25px;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.cartIcon{
+    margin-top: 30px;
 }
 }

@@ -1,6 +1,6 @@
 import {Component} from "react";
-import './App.css';
-import video from "./villa.mp4"
+import '../App.css';
+import video from "../assets/villa.mp4"
 
 class Video extends Component{
 

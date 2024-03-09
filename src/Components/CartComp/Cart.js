@@ -11,7 +11,7 @@ const Cart = () =>{
         <div>
             <img className="cartIcon" src="https://cdn-icons-png.freepik.com/256/3916/3916648.png?ga=GA1.1.672499557.1709435275&" alt="icon"/>
             <h3>TOTAL: ${totalPrice}</h3>
-            {cartItems.map((cartItem, index)=><CartItem key={index} cartItem={cartItem}/>)}
+            {cartItems.map((cartItem)=><CartItem key={cartItem.id} cartItem={cartItem}/>)}
         </div>
     )
 }

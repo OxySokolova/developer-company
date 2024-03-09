@@ -1,12 +1,12 @@
 import React from 'react';
-import About from './About';
+import About from './sections/about/About';
 import './App.css';
-import Video from './Video';
-import Price from './Price';
-import Feedback from './Feedback';
-import Information from './Information';
-import End from './End';
-import logo from './villa-modified.png';
+import Video from './sections/Video';
+import Price from './sections/Price';
+import Feedback from './sections/feedback/Feedback';
+import Information from './sections/Information';
+import End from './sections/End';
+import logo from './assets/villa-modified.png';
 import Cart from './Components/CartComp/Cart';
 import AllProjects from './Components/VillasComp/AllProjects';
 import { BrowserRouter as Router } from "react-router-dom";
@@ -26,6 +26,7 @@ function App() {
       </nav>
     <div>
       <Video />
+      
 
       <section id="about" className="gap"><About /></section>
 

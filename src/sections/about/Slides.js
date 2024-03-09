@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { dataSlides } from "./dataSlides";
-import './App.css';
+import '../../App.css';
 
 function Slides() {
     const [villa, setVilla] = useState(0);

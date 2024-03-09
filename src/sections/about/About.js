@@ -1,5 +1,5 @@
 import Slides from "./Slides";
-import './App.css';
+import '../../App.css';
 
 
 function About() {
